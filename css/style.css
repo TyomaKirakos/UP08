@@ -7,8 +7,9 @@
     font-family: "Open Sans", "Arial";
 }
 
-:root{
-    --container: 1110px;
+.container{
+    width: 1110px;
+    margin: 0 auto;
 }
 
 /* Шапка */
@@ -67,7 +68,6 @@
 /* Приветствующий блок */
 
 .greeting-block{
-    width: var(--container);
     margin: 0 auto;
     /* height: 93vh; */
     display: flex;
@@ -113,6 +113,62 @@
     border: 2px solid #fff;
     color: #fff;
     text-transform: uppercase;
+}
+
+/* слайдер */
+
+.ctrl-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+
+.title-block{
+    display: flex;
+    align-items: center;
+}
+
+.title-block__burger-img{
+    width: 100px;
+    margin-right: 40px;
+}
+
+.title-block__heading{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Oswald', 'Open Sans', 'Arial';
+    font-weight: 400;
+}
+
+.arrows-block{
+    display: flex;
+}
+
+.arrows-block__arrow{
+    border: 2px solid #005BC1;
+    padding: 18px 22px;
+    cursor: pointer;
+}
+
+.arrows-block__arrow:first-child{
+    border-right: 1px solid #005BC1;;
+}
+
+.arrows-block__arrow:last-child{
+    border-left: 1px solid #005BC1;;
+}
+
+.arrow-img{
+    width: 18px;
+}
+
+.arrow__right-arrow{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
 }
 
 
