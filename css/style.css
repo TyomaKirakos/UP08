@@ -295,6 +295,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    cursor: pointer;
 }
 
 .category-img1{
@@ -322,6 +323,88 @@
     text-transform: uppercase;
     color: #fff;
 }
+
+/* Блок аренды оборудования */
+
+.rent-block{
+    margin-bottom: 110px;
+}
+
+.rent-block__title-block{
+    margin-bottom: 40px;
+}
+
+.main-rent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-rent__text{
+    font-weight: 300;
+    font-size: 18px;
+    color: #343434;
+    line-height: 25px;
+    flex-basis: 30%;
+}
+
+.equipment-rent-block{
+    border: 3px solid #005BC1;
+    padding: 30px;
+    flex-basis: 65%;
+}
+
+.equipment-top-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.equipment-top-part__heading{
+    font-family: "Oswald", "Open Sans";
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #343434;
+}
+
+.equipment-rent-block__equipment-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.equipment-info__img{
+    width: 255px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.equipment-info__text-info{
+    color: #343434;
+}
+
+.text-info__equipment-name{
+    font-family: "Oswald", "Open Sans";
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.equip-characteristics__charasteristic{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 30px;
+}
+
+.equip-characteristics__charasteristic:last-child{
+    margin-bottom: 0;
+}
+
+
 
 
 
