@@ -233,6 +233,95 @@
     color: #343434;
 }
 
+/* Каталог */
+
+.catalog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.catalog__title-block{
+    margin-bottom: 70px;
+    align-self: flex-start;
+}
+
+.catalog__categories{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.categories__item{
+    font-family: "Oswald", "Open Sans";
+    font-size: 24px;
+    font-weight: 400;
+    color: #343434;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.categories__item:last-child{
+    margin-right: 0;
+}
+
+.active-category{
+    color: #005BC1;
+}
+
+.active-category::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #005BC1;
+    margin-top: 5px;
+}
+
+.categories-imgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.categories-imgs__category-img{
+    width: 350px;
+    height: 300px;
+    background-size: cover;
+    border: 3px solid #005BC1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.category-img1{
+    background: url(../img/catalog/catalog1.png);
+}
+
+.category-img2{
+    background: url(../img/catalog/catalog2.png);
+}
+
+.category-img3{
+    background: url(../img/catalog/catalog3.png);
+}
+
+.category-block{
+    background-color: #005BC1;
+    width: 265px;
+    padding: 15px 0px 15px 21px;
+    margin-bottom: 15px;
+}
+
+.category-block__title{
+    font-family: "Oswald", "Open Sans";
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
 
 
 
